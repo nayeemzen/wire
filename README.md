@@ -325,6 +325,11 @@ automatically add the generated Java code to your project's source roots.
               <include>squareup.dinosaurs.*</include>
               <include>squareup.geology.*</include>
             </includes>
+            <protoFiles>
+              <!-- proto files to generate code for -->
+              <protoFile>dinosaurs.proto</protoFile>
+              <protoFile>period.proto</protoFile>
+            </protoFiles>
           </configuration>
         </execution>
       </executions>
